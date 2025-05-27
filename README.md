@@ -1,7 +1,7 @@
-Project Overview:
-
-- Pokescript.py : Data Collection script
-- Pokegraph.py : Main Graph construction function
-- main_analysis : Relevant Plots and results
-- pokedata.csv : csv result of raw data collection
-- pokegraph.pkl : dump of constructed graph
+pokegraph/
+│
+├── data_loader.py    Loads csv and processes to dataframe
+├── stats.py          Consttucts node and edge statistics 
+├── graph_builder.py  Builds Graph
+├── validation.py     Optional BiCM validation
+└── main.py           Main function definition
